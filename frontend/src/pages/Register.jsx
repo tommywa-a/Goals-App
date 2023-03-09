@@ -81,7 +81,9 @@ function Register() {
 						<button
 							type='submit'
 							className='btn btn-block'
-						></button>
+						>
+							Submit
+						</button>
 					</div>
 				</form>
 			</section>
