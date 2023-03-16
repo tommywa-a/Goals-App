@@ -1,11 +1,11 @@
-import { useEffect } from "react"
-import {useNavigate} from 'react-router-dom'
-import {useSelector} from 'react-redux'
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 
 function Dashboard() {
 	const navigate = useNavigate()
 
-	const {user} = useSelector((state) => state.auth)
+	const { user } = useSelector((state) => state.auth)
 
 	useEffect(() => {
 		if (!user) {
