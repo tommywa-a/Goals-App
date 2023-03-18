@@ -14,14 +14,16 @@ function Dashboard() {
 		}
 	}, [user, navigate])
 
-	return <>
-		<section className="heading">
-			<h1>Welcome {user && user.name}</h1>
-			<p>Goals Dashboard</p>
-		</section>
+	return (
+		<>
+			<section className='heading'>
+				<h1>Welcome {user && user.name}</h1>
+				<p>Goals Dashboard</p>
+			</section>
 
-		<GoalForm />
-	</>
+			<GoalForm />
+		</>
+	)
 }
 
 export default Dashboard
