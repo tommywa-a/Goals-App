@@ -13,10 +13,10 @@ const createGoal = async (goalData, token) => {
   const response = await axios.post(API_URL, goalData, config)
 
   return response.data
-
+}
   const goalService = {
     createGoal,
   }
 
   export default goalService
-}
+
