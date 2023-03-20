@@ -6,7 +6,7 @@ const API_URL = '/api/goals/'
 const createGoal = async (goalData, token) => {
 	const config = {
 		headers: {
-			Authorization: `bearer ${token}`,
+			Authorization: `Bearer ${token}`,
 		},
 	}
 
