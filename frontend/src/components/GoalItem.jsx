@@ -1,4 +1,4 @@
-function GoalItem({goal}) {
+function GoalItem({ goal }) {
   return (
     <div className='goal'>
       <div>

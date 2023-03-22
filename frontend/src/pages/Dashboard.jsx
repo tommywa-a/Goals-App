@@ -22,7 +22,7 @@ function Dashboard() {
 		dispatch(getGoals())
 		}
 		if (isError) {
-			console.log(message)
+			console.log('Error')
 		}
 		return () => {
 			dispatch(reset())
