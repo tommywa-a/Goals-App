@@ -4,8 +4,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import GoalForm from '../components/GoalForm'
 import GoalItem from '../components/GoalItem'
 import Spinner from '../components/Spinner'
-import { getGoals } from '../features/goals/goalSlice'
-import {reset} from '../features/auth/authSlice'
+import { getGoals, reset } from '../features/goals/goalSlice'
+// import {reset} from '../features/auth/authSlice'
 
 function Dashboard() {
 	const navigate = useNavigate()
