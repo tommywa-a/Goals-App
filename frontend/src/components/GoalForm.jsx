@@ -12,7 +12,7 @@ function GoalForm() {
 
 		dispatch(createGoal({ text }))
 		setText('')
-		window.location.reload(true)
+		// window.location.reload(true)
 	}
 
 	return (
